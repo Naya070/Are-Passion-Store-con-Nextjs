@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d .next",
     "dev": "next",
     "build": "next build",
     "start": "node_modules/next/dist/bin/next start -p $PORT",
@@ -21,7 +21,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.4.2",
+    "next": "12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "semantic-ui-css": "^2.4.1",
